@@ -1,0 +1,40 @@
+.source-editor {
+  font-family: "Fira Code", Consolas, "Courier New", Courier, monospace;
+  font-size: 18px;
+  font-variant-ligatures: common-ligatures;
+  border-radius: 3px;
+  counter-reset: line;
+  background-color: #272822;
+}
+
+.source-editor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 55px;
+  width: 1px;
+  height: 100%;
+  /* border: 1px solid red; */
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 1), 3px 0 5px rgba(0, 0, 0, 0.8),
+    5px 0 5px rgba(0, 0, 0, 0.6), 8px 0 5px rgba(0, 0, 0, 0.4),
+    11px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.source-editor pre {
+  padding-left: 60px !important;
+}
+
+.source-editor textarea {
+  caret-color: white;
+  outline: none;
+  padding-left: 60px !important;
+}
+
+.source-editor .editorLineNumber {
+  position: absolute;
+  left: 0;
+  color: #cccccc;
+  text-align: right;
+  width: 50px;
+  font-weight: 700;
+}

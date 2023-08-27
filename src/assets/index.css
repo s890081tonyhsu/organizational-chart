@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root main {
+  flex: 1;
+}
+
+.react-flow__edges {
+  z-index: 10 !important;
+}
+
+.organization_group {
+  padding: 5px 0 0;
+}
+
+.organization_node {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

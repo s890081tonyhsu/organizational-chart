@@ -1,0 +1,18 @@
+{
+  "file": {
+    "title": "File",
+    "component": "File"
+  },
+  "table": {
+    "title": "Dependency Table",
+    "component": "DepTable"
+  },
+  "source": {
+    "title": "DOT Source",
+    "component": "Source"
+  },
+  "debug": {
+    "title": "SVG Debug",
+    "component": "SVGDebug"
+  }
+}
